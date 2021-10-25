@@ -1,0 +1,4 @@
+flutter_native_splash:
+  image: assets/splas.png
+  color: "FFFFFF"
+  android: true

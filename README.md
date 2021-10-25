@@ -1,16 +1,19 @@
 # hashbone
 
-A new Flutter project.
+Flutter тестовое задание
 
-## Getting Started
+Напишите приложение для конвертирования валют. Для получения текущих курсов найдите и используйте любое отрытое API.
 
-This project is a starting point for a Flutter application.
+Приложение должно состоять из двух страниц:
 
-A few resources to get you started if this is your first Flutter project:
+1. Конвертер из одной валюты в другую. На этой странице должно быть текстовое поле, в которое можно ввести текст в виде 15 usd in rub и получить результат.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+2. Страница с текущими курсами валют. На этой странице пользователь должен видеть «свежие» курсы валют относительно базовой валюты — например, если базовая валюта — рубль, то пользователь видит, что 1 USD = 63.49 RUB, а 1 EUR = 72.20
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+По-умолчанию у пользователя должна определяться «базовая» валюта, которую он может настроить.
+
+Плюсом будет:
+
+- Хорошо продуманный интерфейс и внешний вид
+- Тесты
+- Максимальная скорость работы приложения (как при загрузке приложения, так и при конвертировании валют)
